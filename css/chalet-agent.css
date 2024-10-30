@@ -1,0 +1,97 @@
+
+.ca-no-wrap {
+    white-space: nowrap;
+}
+
+.ca-availability,
+.ca-lift-passes,
+.ca-lift-pass-types,
+.ca-properties,
+.cs-properties-list,
+.ca-seasons,
+.ca-testimonial,
+.ca-transfers {
+    font-size: 85%;
+    font-family: arial, verdana, sans-serif;
+}
+
+/* Properties List */
+.cs-properties-list {
+    margin-left: 40px;
+}
+
+/* Property Details Table */
+.ca-properties td,
+.ca-properties th {
+    padding: 2px 5px 0 0;
+    text-align: left;
+}
+
+/* Availability & Prices Table */
+.ca-availability {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.ca-availability td,
+.ca-availability th {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.ca-availability .prices {
+    font-weight: bold;
+}
+
+.ca-availability th small {
+    color: #999;
+}
+
+.ca-availability .fully-booked {
+
+}
+
+.ca-availability .some-available {
+    color: #999;
+}
+
+.ca-availability .mostly-available {
+    color: #666;
+}
+
+.ca-availability .ca-beds-remaining {
+    display: block;
+}
+
+.ca-availability .ca-public-note {
+    display: block;
+    color: #c00;
+}
+
+.ca-availability .in-the-past {
+    display: none;
+}
+
+/* Hide sole occupancy prices if needed */
+.price-sole-occupancy {
+    display: none;
+}
+
+/* Testimonials */
+.ca-testimonial {
+    clear:  both;
+    margin: 40px 0;
+    padding-bottom: 30px;
+}
+
+.ca-testimonial-property,
+.ca-testimonial-date,
+.ca-testimonial-author {
+    float: right;
+    font-style: italic;
+    margin: 10px 0 0 20px;
+}
+
+.ca-testimonial-author {
+    font-weight: bold;
+}
